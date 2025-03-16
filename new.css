@@ -4,6 +4,7 @@ body {
 
 header {
     background: linear-gradient(90deg, rgb(156, 230, 223),rgb(115, 222, 179));
+    color:#50525c;
 }
 
 .bigtitle h1{
@@ -80,4 +81,5 @@ header {
 footer {
     background: linear-gradient(90deg, rgb(156, 230, 223),rgb(115, 222, 179));
     height :200px;
+    color:#50525c;
 }
