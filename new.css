@@ -18,12 +18,31 @@ header {
     font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
 }
 
-.Day1 h4{
+.accordion {
+    color:#3b5b50;
+    background: linear-gradient(90deg, rgb(156, 230, 223),rgb(115, 222, 179));
+    cursor: pointer;
+    padding: 18px;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
-}
-.Day2 h4{
+  }
+  
+  .panel {
+    list-style-type: none;
+    margin: 0;
+    padding: 0 18px;
+    background-color: #fefcf3;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease;
+  }
+  .panel li {
+    margin: 10px;
     font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
-}
+  }
 
 .hp {
     padding: 0.5em 1em;
