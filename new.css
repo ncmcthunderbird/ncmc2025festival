@@ -13,6 +13,7 @@
 
 body {
     background: linear-gradient(90deg, rgb(233, 243, 234), rgb(224, 227, 205));
+    background-attachment: fixed;
 }
 
 header {
@@ -29,6 +30,10 @@ header h3{
 
 .bigtitle h2{
     font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
+}
+
+.nowgoing {
+    line-height: 1;
 }
 
 .nowgoing h2{
