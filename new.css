@@ -1,9 +1,29 @@
+  a:link {
+    color: blue;
+  }
+  a:visited {
+    color: blue;
+  }
+  a:hover {
+    color: green;
+  }
+  a:active {
+    color: rgb(135, 225, 200);
+  }
+
 body {
     background: linear-gradient(90deg, rgb(233, 243, 234), rgb(224, 227, 205));
 }
 
 header {
     background: linear-gradient(90deg, rgb(156, 230, 223),rgb(115, 222, 179));
+}
+
+header h2{
+    color:rgb(20, 17, 17);
+}
+
+header h3{
     color:#50525c;
 }
 
@@ -40,9 +60,12 @@ header {
     transition: max-height 0.2s ease;
   }
   .panel li {
-    margin: 10px;
+    margin: 10px; 
+    line-height: 2.5; /*行の長さを2.5倍にする*/  
     font-family:"Yu Gothic", "游ゴシック", YuGothic, "游ゴシック体";
   }
+
+
 
 .hp {
     padding: 0.5em 1em;
