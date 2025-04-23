@@ -12,7 +12,9 @@
   }
 
 body {
-    background: linear-gradient(90deg, rgb(233, 243, 234), rgb(224, 227, 205));
+    background-size:360px 300px; 
+    background-color:rgba(255,255,255,0.8);
+    background-blend-mode:lighten;
     background-attachment: fixed;
 }
 
